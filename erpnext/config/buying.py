@@ -172,12 +172,8 @@ def get_data():
 				{
 					"type": "report",
 					"is_query_report": True,
-					"name": "Addresses And Contacts",
-					"label": "Supplier Addresses And Contacts",
-					"doctype": "Address",
-					"route_options": {
-						"party_type": "Supplier"
-					}
+					"name": "Supplier Addresses and Contacts",
+					"doctype": "Supplier"
 				},
 			]
 		},

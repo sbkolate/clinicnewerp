@@ -47,15 +47,15 @@ my_account_context = "erpnext.shopping_cart.utils.update_my_account_context"
 
 email_append_to = ["Job Applicant", "Opportunity", "Issue"]
 
-calendars = ["Task", "Production Order", "Leave Application", "Sales Order", "Holiday List"]
+calendars = ["Task"]
 
 fixtures = ["Web Form"]
 
 website_generators = ["Item Group", "Item", "BOM", "Sales Partner", "Job Opening", "Student Admission"]
 
 website_context = {
-	"favicon": 	"/assets/erpnext/images/favicon.png",
-	"splash_image": "/assets/erpnext/images/erp-icon.svg"
+	"favicon": 	"/assets/erpnext/images/aas.png",
+	"splash_image": "/assets/erpnext/images/splash.png"
 }
 
 website_route_rules = [
