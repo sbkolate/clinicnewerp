@@ -99,65 +99,65 @@ def get_data():
 			"type": "module",
 			"hidden": 1
 		},
-		{
-			"module_name": "Buying",
-			"color": "#c0392b",
-			"icon": "fa fa-shopping-cart",
-			"icon": "octicon octicon-briefcase",
-			"type": "module",
-			"hidden": 1
-		},
-		{
-			"module_name": "HR",
-			"color": "#2ecc71",
-			"icon": "fa fa-group",
-			"icon": "octicon octicon-organization",
-			"label": _("Human Resources"),
-			"type": "module",
-			"hidden": 1
-		},
-		{
-			"module_name": "Manufacturing",
-			"color": "#7f8c8d",
-			"icon": "fa fa-cogs",
-			"icon": "octicon octicon-tools",
-			"type": "module",
-			"hidden": 1
-		},
-		{
-			"module_name": "POS",
-			"color": "#589494",
-			"icon": "fa fa-th",
-			"icon": "octicon octicon-credit-card",
-			"type": "page",
-			"link": "pos",
-			"label": _("POS")
-		},
-		{
-			"module_name": "Projects",
-			"color": "#8e44ad",
-			"icon": "fa fa-puzzle-piece",
-			"icon": "octicon octicon-rocket",
-			"type": "module",
-			"hidden": 1
-		},
-		{
-			"module_name": "Support",
-			"color": "#2c3e50",
-			"icon": "fa fa-phone",
-			"icon": "octicon octicon-issue-opened",
-			"type": "module",
-			"hidden": 1
-		},
-		{
-			"module_name": "Learn",
-			"color": "#FF888B",
-			"icon": "octicon octicon-device-camera-video",
-			"type": "module",
-			"is_help": True,
-			"label": _("Learn"),
-			"hidden": 1
-		},
+		# {
+		# 	"module_name": "Buying",
+		# 	"color": "#c0392b",
+		# 	"icon": "fa fa-shopping-cart",
+		# 	"icon": "octicon octicon-briefcase",
+		# 	"type": "module",
+		# 	"hidden": 1
+		# },
+		# {
+		# 	"module_name": "HR",
+		# 	"color": "#2ecc71",
+		# 	"icon": "fa fa-group",
+		# 	"icon": "octicon octicon-organization",
+		# 	"label": _("Human Resources"),
+		# 	"type": "module",
+		# 	"hidden": 1
+		# },
+		# {
+		# 	"module_name": "Manufacturing",
+		# 	"color": "#7f8c8d",
+		# 	"icon": "fa fa-cogs",
+		# 	"icon": "octicon octicon-tools",
+		# 	"type": "module",
+		# 	"hidden": 1
+		# },
+		# {
+		# 	"module_name": "POS",
+		# 	"color": "#589494",
+		# 	"icon": "fa fa-th",
+		# 	"icon": "octicon octicon-credit-card",
+		# 	"type": "page",
+		# 	"link": "pos",
+		# 	"label": _("POS")
+		# },
+		# {
+		# 	"module_name": "Projects",
+		# 	"color": "#8e44ad",
+		# 	"icon": "fa fa-puzzle-piece",
+		# 	"icon": "octicon octicon-rocket",
+		# 	"type": "module",
+		# 	"hidden": 1
+		# },
+		# {
+		# 	"module_name": "Support",
+		# 	"color": "#2c3e50",
+		# 	"icon": "fa fa-phone",
+		# 	"icon": "octicon octicon-issue-opened",
+		# 	"type": "module",
+		# 	"hidden": 1
+		# },
+		# {
+		# 	"module_name": "Learn",
+		# 	"color": "#FF888B",
+		# 	"icon": "octicon octicon-device-camera-video",
+		# 	"type": "module",
+		# 	"is_help": True,
+		# 	"label": _("Learn"),
+		# 	"hidden": 1
+		# },
 		{
 			"module_name": "Maintenance",
 			"color": "#FF888B",
