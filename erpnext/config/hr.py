@@ -1,252 +1,252 @@
-# from __future__ import unicode_literals
-# from frappe import _
+from __future__ import unicode_literals
+from frappe import _
 
-# def get_data():
-# 	return [
+def get_data():
+	return [
+		{
+			"label": _("General"),
+			"items": [
+				# {
+				# 	"type": "help",
+				# 	"label": _("Navigating"),
+				# 	"youtube_id": "YDoI2DF4Lmc"
+				# }
+			]
+		}
 # 		{
-# 			"label": _("Employee and Attendance"),
+# 			"label": _("General"),
 # 			"items": [
 # 				{
-# 					"type": "doctype",
-# 					"name": "Employee",
-# 					"description": _("Employee records."),
+# 					"type": "help",
+# 					"label": _("Navigating"),
+# 					"youtube_id": "YDoI2DF4Lmc"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Employee Attendance Tool",
-# 					"label": _("Employee Attendance Tool"),
-# 					"description":_("Mark Attendance for multiple employees"),
-# 					"hide_count": True
+# 					"type": "help",
+# 					"label": _("Setup Wizard"),
+# 					"youtube_id": "oIOf_zCFWKQ"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Attendance",
-# 					"description": _("Attendance record."),
+# 					"type": "help",
+# 					"label": _("Customizing Forms"),
+# 					"youtube_id": "pJhL9mmxV_U"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Upload Attendance",
-# 					"description":_("Upload attendance from a .csv file"),
-# 					"hide_count": True
+# 					"type": "help",
+# 					"label": _("Report Builder"),
+# 					"youtube_id": "y0o5iYZOioU"
 # 				},
 # 			]
-# 		},
-# 		{
-# 			"label": _("Recruitment"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Job Applicant",
-# 					"description": _("Applicant for a Job."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Job Opening",
-# 					"description": _("Opening for a Job."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Offer Letter",
-# 					"description": _("Offer candidate a Job."),
-# 				},
-# 			]
-# 		},
-# 		{
-# 			"label": _("Leaves and Holiday"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Leave Application",
-# 					"description": _("Applications for leave."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name":"Leave Type",
-# 					"description": _("Type of leaves like casual, sick etc."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Holiday List",
-# 					"description": _("Holiday master.")
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Leave Allocation",
-# 					"description": _("Allocate leaves for a period.")
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Leave Control Panel",
-# 					"label": _("Leave Allocation Tool"),
-# 					"description":_("Allocate leaves for the year."),
-# 					"hide_count": True
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Leave Block List",
-# 					"description": _("Block leave applications by department.")
-# 				},
 
-# 			]
 # 		},
-# 		{
-# 			"label": _("Payroll"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Salary Slip",
-# 					"description": _("Monthly salary statement."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Process Payroll",
-# 					"label": _("Process Payroll"),
-# 					"description":_("Generate Salary Slips"),
-# 					"hide_count": True
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Salary Structure",
-# 					"description": _("Salary template master.")
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Salary Component",
-# 					"label": _("Salary Components"),
-# 					"description": _("Earnings, Deductions and other Salary components")
-# 				},
-
-# 			]
-# 		},
-# 		{
-# 			"label": _("Expense Claims"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Expense Claim",
-# 					"description": _("Claims for company expense."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Expense Claim Type",
-# 					"description": _("Types of Expense Claim.")
-# 				},
-# 			]
-# 		},
-# 		{
-# 			"label": _("Appraisals"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Appraisal",
-# 					"description": _("Performance appraisal."),
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Appraisal Template",
-# 					"description": _("Template for performance appraisals.")
-# 				},
-# 			]
-# 		},
-
-# 		{
-# 			"label": _("Training"),
-# 			"items": [
-# 				{
-# 					"type": "doctype",
-# 					"name": "Training Event"
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Training Result"
-# 				},
-# 				{
-# 					"type": "doctype",
-# 					"name": "Training Feedback"
-# 				},
-# 			]
-# 		},
-
 # 		{
 # 			"label": _("Setup"),
-# 			"icon": "fa fa-cog",
 # 			"items": [
 # 				{
-# 					"type": "doctype",
-# 					"name": "HR Settings",
-# 					"description": _("Settings for HR Module")
+# 					"type": "help",
+# 					"label": _("Data Import and Export"),
+# 					"youtube_id": "6wiriRKPhmg"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Employment Type",
-# 					"description": _("Types of employment (permanent, contract, intern etc.).")
+# 					"type": "help",
+# 					"label": _("Opening Stock Balance"),
+# 					"youtube_id": "0yPgrtfeCTs"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Branch",
-# 					"description": _("Organization branch master.")
+# 					"type": "help",
+# 					"label": _("Setting up Email"),
+# 					"youtube_id": "YFYe0DrB95o"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Department",
-# 					"description": _("Organization unit (department) master.")
+# 					"type": "help",
+# 					"label": _("Printing and Branding"),
+# 					"youtube_id": "cKZHcx1znMc"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Designation",
-# 					"description": _("Employee designation (e.g. CEO, Director etc.).")
+# 					"type": "help",
+# 					"label": _("Users and Permissions"),
+# 					"youtube_id": "fnBoRhBrwR4"
 # 				},
 # 				{
-# 					"type": "doctype",
-# 					"name": "Daily Work Summary Settings"
+# 					"type": "help",
+# 					"label": _("Workflow"),
+# 					"youtube_id": "yObJUg9FxFs"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Email Account"),
+# 					"youtube_id": "YFYe0DrB95o"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("File Manager"),
+# 					"youtube_id": "4-osLW3E_Rk"
 # 				},
 # 			]
 # 		},
 # 		{
-# 			"label": _("Reports"),
-# 			"icon": "fa fa-list",
+# 			"label": _("Accounts"),
 # 			"items": [
 # 				{
-# 					"type": "report",
-# 					"is_query_report": True,
-# 					"name": "Employee Leave Balance",
-# 					"doctype": "Leave Application"
+# 					"type": "help",
+# 					"label": _("Chart of Accounts"),
+# 					"youtube_id": "DyR-DST-PyA"
 # 				},
 # 				{
-# 					"type": "report",
-# 					"is_query_report": True,
-# 					"name": "Employee Birthday",
-# 					"doctype": "Employee"
+# 					"type": "help",
+# 					"label": _("Setting up Taxes"),
+# 					"youtube_id": "nQ1zZdPgdaQ"
 # 				},
 # 				{
-# 					"type": "report",
-# 					"is_query_report": True,
-# 					"name": "Employees working on a holiday",
-# 					"doctype": "Employee"
+# 					"type": "help",
+# 					"label": _("Opening Accounting Balance"),
+# 					"youtube_id": "kdgM20Q-q68"
 # 				},
 # 				{
-# 					"type": "report",
-# 					"name": "Employee Information",
-# 					"doctype": "Employee"
+# 					"type": "help",
+# 					"label": _("Advance Payments"),
+# 					"youtube_id": "J46-6qtyZ9U"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("CRM"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Lead to Quotation"),
+# 					"youtube_id": "TxYX4r4JAKA"
 # 				},
 # 				{
-# 					"type": "report",
-# 					"is_query_report": True,
-# 					"name": "Monthly Salary Register",
-# 					"doctype": "Salary Slip"
+# 					"type": "help",
+# 					"label": _("Newsletters"),
+# 					"youtube_id": "muLKsCrrDRo"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("Selling"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Customer and Supplier"),
+# 					"youtube_id": "anoGi_RpQ20"
 # 				},
 # 				{
-# 					"type": "report",
-# 					"is_query_report": True,
-# 					"name": "Monthly Attendance Sheet",
-# 					"doctype": "Attendance"
+# 					"type": "help",
+# 					"label": _("Sales Order to Payment"),
+# 					"youtube_id": "7AMq4lqkN4A"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Point-of-Sale"),
+# 					"youtube_id": "4WkelWkbP_c"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Product Bundle"),
+# 					"youtube_id": "yk3kPrRyRRc"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Drop Ship"),
+# 					"youtube_id": "hUc0hu_XLdo"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("Stock"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Items and Pricing"),
+# 					"youtube_id": "qXaEwld4_Ps"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Item Variants"),
+# 					"youtube_id": "OGBETlCzU5o"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Opening Stock Balance"),
+# 					"youtube_id": "0yPgrtfeCTs"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Making Stock Entries"),
+# 					"youtube_id": "Njt107hlY3I"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Serialized Inventory"),
+# 					"youtube_id": "gvOVlEwFDAk"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Batch Inventory"),
+# 					"youtube_id": "J0QKl7ABPKM"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Managing Subcontracting"),
+# 					"youtube_id": "ThiMCC2DtKo"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Quality Inspection"),
+# 					"youtube_id": "WmtcF3Y40Fs"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("Buying"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Customer and Supplier"),
+# 					"youtube_id": "anoGi_RpQ20"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Material Request to Purchase Order"),
+# 					"youtube_id": "4TN9kPyfIqM"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Purchase Order to Payment"),
+# 					"youtube_id": "EK65tLdVUDk"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Managing Subcontracting"),
+# 					"youtube_id": "ThiMCC2DtKo"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("Manufacturing"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Bill of Materials"),
+# 					"youtube_id": "hDV0c1OeWLo"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Production Planning Tool"),
+# 					"youtube_id": "CzatSl4zJ2Y"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Production Order"),
+# 					"youtube_id": "ZotgLyp2YFY"
 # 				},
 
 # 			]
 # 		},
 # 		{
-# 			"label": _("Help"),
-# 			"icon": "fa fa-facetime-video",
+# 			"label": _("Human Resource"),
 # 			"items": [
 # 				{
 # 					"type": "help",
@@ -269,5 +269,30 @@
 # 					"youtube_id": "apgE-f25Rm0"
 # 				},
 # 			]
-# 		}
-# 	]
+# 		},
+# 		{
+# 			"label": _("Projects"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Managing Projects"),
+# 					"youtube_id": "egxIGwtoKI4"
+# 				},
+# 			]
+# 		},
+# 		{
+# 			"label": _("Website"),
+# 			"items": [
+# 				{
+# 					"type": "help",
+# 					"label": _("Publish Items on Website"),
+# 					"youtube_id": "W31LBBNzbgc"
+# 				},
+# 				{
+# 					"type": "help",
+# 					"label": _("Shopping Cart"),
+# 					"youtube_id": "xkrYO-KFukM"
+# 				},
+# 			]
+# 		},
+	]
