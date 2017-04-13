@@ -141,6 +141,7 @@ def get_data():
 		# 	"type": "module",
 		# 	"hidden": 1
 		# },
+
 		# {
 		# 	"module_name": "Support",
 		# 	"color": "#2c3e50",
@@ -158,6 +159,8 @@ def get_data():
 		# 	"label": _("Learn"),
 		# 	"hidden": 1
 		# },
+
+	
 		{
 			"module_name": "Maintenance",
 			"color": "#FF888B",
